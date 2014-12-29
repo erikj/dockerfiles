@@ -1,4 +1,5 @@
 FROM centos:centos6
+MAINTAINER Erik Johnson "erik@erikj.me"
 
 # based on https://github.com/docker-library/ruby/blob/b7fefd2fa79882da90feb0718430680c77c5fa8b/2.2/Dockerfile
 
@@ -47,3 +48,5 @@ RUN gem install bundler
 
 # # don't create ".bundle" in all our apps
 # ENV BUNDLE_APP_CONFIG $GEM_HOME
+
+CMD ['irb']

@@ -5,6 +5,6 @@ Docker image based on [`centos`](https://registry.hub.docker.com/_/centos/):[`ce
 - **Java** `1.8`
 - **JRuby** `1.7.18`
 
-[`erikj/jruby:1.7.18`](https://github.com/erikj/dockerfiles/commit/fc08cf353d00f40cdcfc2ce59b8d787887439fc0)
+[`erikj/jruby:1.7.18`](https://github.com/erikj/dockerfiles/commit/caed86d)
 
-Image size: `446.7 MB`
+Image size: `407.6 MB`
